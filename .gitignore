@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,7 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-=======
 config.py
 
 __pycache__
@@ -173,4 +171,3 @@ __pycache__
 .Trashes
 ehthumbs.db
 Thumbs.db
->>>>>>> 12bda4e534c53209d5829f14ce4652f3d0d482e8
