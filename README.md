@@ -15,7 +15,7 @@ For example: without the merge we would have one set of data for the movie Titan
 Therefore, we kept the data separated and downloaded each dataframe into a new csv file: cleaned_credits.csv and cleaned_movie_db.csv.  
 
 In conjunction with our SQL databases, we also created an entity relationship diagram.  
-[![ERD](https://user-images.githubusercontent.com/96644316/182062124-d52cfd66-72bd-4460-b7f1-7488ead23090.png)]  
+![ERD](https://user-images.githubusercontent.com/96644316/182062124-d52cfd66-72bd-4460-b7f1-7488ead23090.png)  
 This diagram shows the major categories of data and how it will be broken down for further analysis in our quest to find the "best".
 
 ### What is next?
