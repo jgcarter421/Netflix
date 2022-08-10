@@ -13,12 +13,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
 # Import csv
-credit_df = pd.read_csv("Resources/credits.csv")
-title_df= pd.read_csv("Resources/titles.csv")
-credit_df.to_html("credits.html")
-title_df.to_html("title.html")
-
-
+cleaned_credits_df = pd.read_csv("Resources/cleaned_credits.csv")
+cleaned_movie_db_df= pd.read_csv("Resources/cleaned_movie_db.csv")
+cleaned_credits_df.to_html("cleaneddata.html")
+cleaned_movie_db_df.to_html("cleanedtitle.html")
 
 
 
