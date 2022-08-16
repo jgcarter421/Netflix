@@ -1,52 +1,115 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Blockbuster Movies on Netflix</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Top Movies to Watch on NETFLIX</title>
 </head>
-<body class="bg-dark">
-    <div class="wrapper">
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a class="navbar-brand" href="credits.html">Best Blockbuster Movie</a>
-            <a class="nav-link active" href = "cleaneddata.html">Netflix Movie Credits</a>
-            <a class="nav-link active" href = "cleanedtitle.html">Netflix Movie Titles</a>
-            <a class="nav-link active" href = "Machine learning">Machine Learning</a>
-            <a class="nav-link active" href = "Rating">Rating</a>
-            <a class="nav-link active" href = "About">About</a>
-            
 
+<body>
 
-            
-        </nav>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">NETFLIX</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
 
-        <!-- Page Header -->
-        <div class="jumbotron">
-            <h1 class="display-4"></h1>
-          
-        </div>
-        
-        <!-- Article Title | Article Paragraph -->
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Article Title -->
-                <div class="col-md-4">
-                    <h3>The next best movie to bring to Netflix!?<br><small>Our movie has been specially curated by analyzing the data of thousands of movies on Netflix! We bring you the best of the best based on weighted IMDB scores! </small></h3>
+            <body class="bg-dark">
+                <div class="wrapper">
+                    <nav class="navbar navbar-dark bg-dark navbar-expand-2g">
+
+                        <a class="nav-link active" href="HTTP Link">Dashboard Visualization</a>
+
+                        </ul>
                 </div>
-                <!-- Article Paragraph -->
-                <div class="col-md-9">
-                    <p>
-                        "mock movie samples Will be edited to suit our project"
-                    </p>
+                <div class="profile-container">
+                    <img class="profile-picture" src="img/profile.jpg" alt="">
+                    <img class="profile-picture" src="img/profile1.jpg" alt="">
+                    <img class="profile-picture" src="img/profile2.jpg" alt="">
+                    <img class="profile-picture" src="img/profile3.jpg" alt="">
+                    <div class="profile-text-container">
+                        <span class="profile-text">Profiles</span>
+
+                    </div>
+                    <div class="toggle">
+                        <i class="fas fa-moon toggle-icon"></i>
+                        <i class="fas fa-sun toggle-icon"></i>
+                        <div class="toggle-ball"></div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title"></h1>
+                <div class="movie-list-wrapper">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+
                 </div>
             </div>
         </div>
+    </div>
+    <div class="featured-content"
+        style="background: linear-gradient(to bottom, rgba(49, 13, 13, 0), #151515), url('img/f-t-2.jpg');">
 
-           <!-- Add scripts -->
 
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Charts</h1>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Graphic</h1>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
