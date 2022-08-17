@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn indexaa.wsgi
+web: gunicorn app.main:app --log-file--
