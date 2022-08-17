@@ -113,6 +113,15 @@ body {
   margin-left: 50px;
 }
 
+.container-fluid {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tableauPlaceholder {
+  margin-left: auto;
+  margin-right: auto;
+}
 .featured-content {
   height: 60vh;
   padding: 70px;
@@ -125,7 +134,7 @@ body {
 .featured-desc {
   width: 500px;
   color: lightgray;
-  margin: 30px 0;
+  margin-right: 30px;
 }
 
 .featured-button {

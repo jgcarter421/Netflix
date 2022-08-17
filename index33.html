@@ -53,14 +53,14 @@
             </div>
         </div>
     </div>
-    <div class="sidebar">
+    <!-- <div class="sidebar">
         <i class="left-menu-icon fas fa-search"></i>
         <i class="left-menu-icon fas fa-home"></i>
         <i class="left-menu-icon fas fa-users"></i>
         <i class="left-menu-icon fas fa-bookmark"></i>
         <i class="left-menu-icon fas fa-tv"></i>
         <i class="left-menu-icon fas fa-hourglass-start"></i>
-        <i class="left-menu-icon fas fa-shopping-cart"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i> -->
     </div>
     <div class="container">
         <div class="content-container">
@@ -81,26 +81,24 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-40">
-                <h3>OUR PROJECT: We began cleaning the data using Google Collab with the pandas library. After
-                    converting our raw
-                    data into initial dataframes, we determined which columns had data we deemed impertinent to our
-                    analysis and dropped them. We dropped the columns for movie "description" and actor's
-                    "character" since we are not looking for best descriptions or characters based on IMDB scores.
-                   
-                    We also dropped the "seasons" column since seasons applies to TV shows- not on movies. We then
-                    filtered out all TV shows and all movies produced outside the United States.
-                    We then used the ETL method to create two SQL databases. One of our databases has the movie data
-                    and the other has the actor/director data.
+                    <h3>OUR PROJECT: We began cleaning the data using Google Collab with the pandas library. After
+                        converting our raw
+                        data into initial dataframes, we determined which columns had data we deemed impertinent to our
+                        analysis and dropped them. We dropped the columns for movie "description" and actor's
+                        "character" since we are not looking for best descriptions or characters based on IMDB scores.
+                    
+                        We also dropped the "seasons" column since seasons applies to TV shows- not on movies. We then
+                        filtered out all TV shows and all movies produced outside the United States.
+                        We then used the ETL method to create two SQL databases. One of our databases has the movie data
+                        and the other has the actor/director data.
 
-                    Originally, we were going to merge our two databases, but we found that it duplicated our movie
-                    data since there were multiple actors credited for each movie.
-                    For example: without the merge we would have one set of data for the movie Titanic. If we merged
-                    the dataframes, we would then have several sets of duplicate data for each actor.
+                        Originally, we were going to merge our two databases, but we found that it duplicated our movie
+                        data since there were multiple actors credited for each movie.
+                        For example: without the merge we would have one set of data for the movie Titanic. If we merged
+                        the dataframes, we would then have several sets of duplicate data for each actor.
 
-                    Therefore, we kept the data separated and downloaded each dataframe into a new csv file:
-                    cleaned_credits.csv and cleaned_movie_db.csv. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. At
-                    hic fugit similique accusantium.</p>
+                        Therefore, we kept the data separated and downloaded each dataframe into a new csv file:
+                        cleaned_credits.csv and cleaned_movie_db.csv.</p>
                     <medium></medium>
 
                 </h3>
@@ -111,71 +109,20 @@
     </div>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="movie-list-container">
-        <h1 class="movie-list-title"></h1>
-        <div class="movie-list-wrapper">
-            <div class="movie-list">
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/8.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/9.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/10.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/11.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/12.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/1.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-img" src="img/1.jpg" alt="">
-                    <span class="movie-list-item-title">Her</span>
-                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                        hic fugit similique accusantium.</p>
-                    <button class="movie-list-item-button">Watch</button>
-                </div>
-            </div>
-            <i class="fas fa-chevron-right arrow"></i>
         </div>
-    </div>
-    <div class="featured-content"
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class='tableauPlaceholder' id='viz1660683953017' style='position: relative'><noscript><a href='#'><img alt='Netflex_Story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflexVisuals&#47;Netflex_Story&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NetflexVisuals&#47;Netflex_Story' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflexVisuals&#47;Netflex_Story&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1660683953017');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+            </div>             
+        </div>
+        </div>             
+        </div>
+        <div class="featured-content"
         style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-t-2.jpg');">
         <img class="featured-title" src="img/f-t-2.jpg" alt="">
         <p class="featured-desc">Limitations of analysis
